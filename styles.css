@@ -1,0 +1,45 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  font-size: 2.75em;
+  padding: 0.5em;
+  color: rgb(216, 150, 7);
+  border: 2px solid red;
+  display: inline-block;
+}
+header span {
+  font-family: "Sacramento", cursive;
+}
+main .post {
+  margin: 25px;
+  padding: 25px;
+  border: 2px solid cyan;
+  border-radius: 0.5em;
+  position: relative;
+}
+.author-info {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 300px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+.author-info.active {
+  display: block;
+}
+.author-info button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+}
